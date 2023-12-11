@@ -1,0 +1,33 @@
+:root {
+    --violeta: #CDB4DB;
+    --pink: #FFC8DD;
+    --hot-pink: #ffafcc;
+    --soft-pink: #ffe5ec;
+    --white: #ffffff;
+    --black: #000000;
+}
+body {
+    font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: var(--soft-pink);
+}
+h1 {
+    color: var(--black);
+    background-color: var(--violeta);
+    display: grid;
+    justify-content: center;
+    font-size: 50px;
+    height: 70px; 
+    border-radius: 40px;
+    margin: 40px;
+}
+textarea {
+    color: var(--black);
+    background-color: var(--violeta);
+    display: grid;
+    justify-content: center;
+    height: 200px;
+    border-radius: 20px;
+
+}
+
+    
