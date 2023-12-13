@@ -1,19 +1,15 @@
-import analyzer from './analyzer.js';
-
-const textArea = document.querySelector('user-input');
+import analyzer from './analyzer.js'; 
+const textArea = document.querySelector('textarea');
 const resetButton = document.getElementById('reset-button');
 resetButton.addEventListener("click", function(){
     textArea.value = "";
 });
 
-let wordCount = document.querySelector('word-count').innerHTML;
-  document.querySelector(wordCount).innerHTML = "0";
-
-let characterCount = document.querySelector('character-count');
-
-let characterCountExcludingSpaces = document.querySelector('character-no-spaces-count');
-let averageWordLength = document.querySelector('word-length-average');
-let numberCount = document.querySelector('number-count');
-let numberSum = document.querySelector('number-sum');
+let wordCount = document.querySelector('contador-palabras');
+let characterCount = document.querySelector('contador-caracteres');
+let characterCountExcludingSpaces = document.querySelector('caracteres-sin-espacio');
+let averageWordLength = document.querySelector('contador-numeros');
+let numberCount = document.querySelector('suma-numeros');
+let numberSum = document.querySelector('longitud-palabras');
 
 //TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
