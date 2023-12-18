@@ -33,7 +33,7 @@ textarea {
     justify-content: center;
     height: 200px;
     width: 400px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: auto;
     margin-top: 10px;
 }
@@ -50,29 +50,21 @@ textarea {
     margin: auto;
     margin-top: 10px;
 }
+#reset-button:hover{
+    color: var(--black);
+    background-color: var(--pink);
+}
 li {
+    padding: auto;
+    display: flex;
+    width: 500px;
+    gap: 10px; 
+}
+ul {
+    white-space: nowrap;
+    padding: 10px;
     color: var(--black);
     background-color: var(--hot-pink);
-    display: block;
-    justify-content: center;
-    margin-top: auto;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 20px;
-    height: 300px;
-    width: 500px;
-}
-.analyzer {
-    color: var(--black);
-    display: grid;
-    justify-content: center;
-    margin: auto;
-    font-size: 15px;
-}
-.contador-palabras, .contador-caracteres, .caracteres-sin-espacio, .contador-numeros, .suma-numeros, .longitud-palabras {
-    color: var(--black);
-    display: grid;
-    justify-content: center;
-    margin: auto;
-    font-size: 15px;
+    border-radius: 15px;
+    width: 400px;
 }

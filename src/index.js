@@ -1,8 +1,9 @@
 import analyzer from './analyzer.js'; 
+
 const textArea = document.querySelector('textarea');
 const resetButton = document.getElementById('reset-button');
 resetButton.addEventListener("click", function(){
-    textArea.value = "";
+  textArea.value = "";
 });
 
 let wordCount = document.querySelector('contador-palabras');
@@ -12,4 +13,4 @@ let averageWordLength = document.querySelector('contador-numeros');
 let numberCount = document.querySelector('suma-numeros');
 let numberSum = document.querySelector('longitud-palabras');
 
-//TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
+//TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`z
