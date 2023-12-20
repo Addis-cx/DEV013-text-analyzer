@@ -1,6 +1,10 @@
-const analyzer = {  
-  getWordCount: (text) => {
-    
+const analyzer = {
+  getWordCount: () => {
+    function contadorPalabra(){
+      const contador1 = wordCount.textArea.value.trim().split(" ").length;
+      wordCount.innerHTML = contador1;
+    }
+    contadorPalabra("texto ingresado");
     //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
   },
   getCharacterCount: (text) => {
@@ -22,3 +26,4 @@ const analyzer = {
 };
 
 export default analyzer;
+//let var = analyzer.getWordCount(text)

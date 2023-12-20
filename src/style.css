@@ -1,5 +1,6 @@
 :root {
     --violeta: #CDB4DB;
+    --purple: #C586DD;
     --pink: #FFC8DD;
     --hot-pink: #ffafcc;
     --soft-pink: #ffe5ec;
@@ -31,14 +32,14 @@ textarea {
     border-color: var(--hot-pink);
     display: grid;
     justify-content: center;
-    height: 200px;
-    width: 400px;
+    height: 150px;
+    width: 600px;
     border-radius: 10px;
     margin: auto;
     margin-top: 10px;
 }
 #reset-button {
-    color: var(--white);
+    color: var(--black);
     background-color: var(--violeta);
     border-color: var(--pink);
     display: block;
@@ -49,15 +50,15 @@ textarea {
     border-radius: 10px;
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 #reset-button:hover{
-    color: var(--black);
-    background-color: var(--pink);
+    color: var(--white);
+    background-color: var(--purple);
 }
 li {
-    padding: auto;
     display: flex;
-    width: 500px;
+    justify-content: center;
     gap: 10px; 
 }
 ul {
@@ -67,4 +68,12 @@ ul {
     background-color: var(--hot-pink);
     border-radius: 15px;
     width: 400px;
+}
+p {
+    color: var(--black);
+    background-color: var(--violeta);
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 200px;
 }
