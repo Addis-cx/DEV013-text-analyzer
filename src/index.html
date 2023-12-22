@@ -12,16 +12,16 @@
   <header>
     <h1>Analizador de Texto</h1>
   </header>
-  <textarea name="user-input" id="" cols="30" rows="10" placeholder="Ingrese su texto aquí..."></textarea>
+  <textarea name="user-input" cols="30" rows="10" placeholder="Ingrese su texto aquí..."></textarea>
   <button id="reset-button">Restaurar</button>
-  <li>
-    <ul data-testid="word-count">Recuento de Palabras: <span class="contador-palabras">0</span></ul>
-    <ul data-testid="character-count">Recuento de Caracteres: <span class="contador-caracteres">0</span></ul>
-    <ul data-testid="character-no-spaces-count">Recuento sin Espacios y Puntuación: <span class="caracteres-sin-espacios/span>">0</span></ul>
-    <ul data-testid="number-count">Recuento de Números: <span class="contador-numeros">0</span></ul>
-    <ul data-testid="number-sum">Suma de Números: <span class="suma-numeros">0</span></ul>
-    <ul data-testid="word-length-average">Longitud de Palabras: <span class="longitud-palabras">0</span></ul>
-  </li>
+  <ul>
+    <li data-testid="word-count" class="contador">Recuento de Palabras:</li>
+    <li data-testid="character-count" class="contador">Recuento de Caracteres:</li>
+    <li data-testid="character-no-spaces-count" class="contador">Recuento sin Espacios y Puntuación:</li>
+    <li data-testid="number-count" class="contador">Recuento de Números: </li>
+    <li data-testid="number-sum" class="contador">Suma de Números:</li>
+    <li data-testid="word-length-average" class="contador">Longitud de Palabras:</li>
+  </ul>
 
 </body>
   <footer>

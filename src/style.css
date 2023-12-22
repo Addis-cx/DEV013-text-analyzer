@@ -26,7 +26,7 @@ header {
     border-radius: 30px;
     margin: 20px;
 }
-textarea {
+textarea[name="user-input"] {
     color: var(--black);
     background-color: var(--hot-pink);
     border-color: var(--hot-pink);
@@ -56,20 +56,21 @@ textarea {
     color: var(--white);
     background-color: var(--purple);
 }
-li {
+ul {
     display: flex;
     justify-content: center;
     gap: 10px; 
 }
-ul {
+.contador {
     white-space: nowrap;
     padding: 10px;
     color: var(--black);
     background-color: var(--hot-pink);
     border-radius: 15px;
     width: 400px;
+    list-style: none;
 }
-p {
+footer {
     color: var(--black);
     background-color: var(--violeta);
     display: grid;
