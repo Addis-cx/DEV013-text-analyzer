@@ -20,10 +20,16 @@ const analyzer = {
     return longitudP/contadorAWL.length;
   },
   getNumberCount: (textUsuario) => {
-    //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
+    const contadorNC = textUsuario.match(/\d+/g);
+    if (contadorNC) {
+      return contadorNC.length;
+    } 
+    else {
+      return 0;
+    }
   },
   getNumberSum: (textUsuario) => {
-    //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
+  
   },
 };
 

@@ -13,8 +13,8 @@ textArea.addEventListener("input", function(){
   characterCount.innerHTML = "Recuento de Caracteres: " + contadorCC;
   characterCountExcludingSpaces.innerHTML = "Recuento sin Espacios y Puntuación: " + contadorCCE;
   averageWordLength.innerHTML = "Longitud de Palabras: " + contadorAWL;
-  numberCount.innerHTML = "Recuento de Palabras: " + contadorNC;
-  numberSum.innerHTML = "Recuento de Palabras: " + contadorNS;
+  numberCount.innerHTML = "Recuento de Números: " + contadorNC;
+  numberSum.innerHTML = "Suma de Números: " + contadorNS;
 });
 const resetButton = document.getElementById("reset-button");
 resetButton.addEventListener("click", function(){
