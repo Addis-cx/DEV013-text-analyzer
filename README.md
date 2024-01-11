@@ -10,13 +10,13 @@ Una aplicación web cuya finalidad es analizar el texto ingresado por el usuario
 
 La herramienta proporciona una manera eficaz de obtener información detallada sobre el contenido del texto, permitiendo al usuario comprender mejor las características fundamentales del mismo.
 
-![Text Analycer](Analizador de Texto.png)
+![Text Analycer](Analizador-de-Texto.png)
 
 ## Tecnologías Utilizadas:
   
   - HTML, CCS y JavaScript.
   - Github Pages para el despliegue del sitio web.
-  Aquí está el enlace: https://addis-cx.github.io/DEV013-text-analyzer/
+  - Aquí está el enlace: https://addis-cx.github.io/DEV013-text-analyzer/
 
 
 ## 4. Funcionalidades
